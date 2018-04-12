@@ -1,8 +1,12 @@
+library 'SharedLibs'
+
 pipeline {
   agent {
     docker {
       image 'maven:alpine'
     }
+    
+    
     
   }
   stages {
